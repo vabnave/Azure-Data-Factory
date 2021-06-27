@@ -3,7 +3,7 @@
 	"properties": {
 		"activities": [
 			{
-				"name": "Execute SSIS Package",
+				"name": "Execute SSIS Package from SSISDB",
 				"type": "ExecuteSSISPackage",
 				"dependsOn": [],
 				"policy": {
