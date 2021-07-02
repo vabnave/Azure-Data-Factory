@@ -4,12 +4,11 @@
 		"type": "Managed",
 		"typeProperties": {
 			"computeProperties": {
-				"location": "AutoResolve",
+				"location": "Norway East",
 				"dataFlowProperties": {
 					"computeType": "General",
 					"coreCount": 8,
-					"timeToLive": 10,
-					"cleanup": false
+					"timeToLive": 0
 				}
 			}
 		}
