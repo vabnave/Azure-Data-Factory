@@ -3,7 +3,7 @@
 	"properties": {
 		"activities": [
 			{
-				"name": "UpdateCustomerDimension",
+				"name": "Record Run",
 				"type": "DatabricksNotebook",
 				"dependsOn": [],
 				"policy": {
