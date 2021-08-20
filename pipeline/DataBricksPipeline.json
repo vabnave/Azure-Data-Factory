@@ -1,0 +1,31 @@
+{
+	"name": "DataBricksPipeline",
+	"properties": {
+		"activities": [
+			{
+				"name": "Record Run",
+				"type": "DatabricksNotebook",
+				"dependsOn": [],
+				"policy": {
+					"timeout": "7.00:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"notebookPath": "/Users/vishal.abnave00002@gmail.com/12-Production-Workloads-with-Azure-Data-Factory/Record-Run",
+					"baseParameters": {
+						"ranBy": "VishalADF"
+					}
+				},
+				"linkedServiceName": {
+					"referenceName": "AzureDatabricks",
+					"type": "LinkedServiceReference"
+				}
+			}
+		],
+		"annotations": []
+	}
+}
