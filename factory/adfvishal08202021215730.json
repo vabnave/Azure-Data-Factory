@@ -1,0 +1,9 @@
+{
+	"name": "adfvishal08202021215730",
+	"location": "norwayeast",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "6c0c0eb0-d1fe-4dd5-ae2e-d4fbfc9faac5",
+		"tenantId": "e2149884-0326-4a31-a604-6a62cfd0f0ce"
+	}
+}
