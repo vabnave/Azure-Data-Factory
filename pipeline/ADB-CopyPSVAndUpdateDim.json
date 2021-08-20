@@ -3,7 +3,7 @@
 	"properties": {
 		"activities": [
 			{
-				"name": "Notebook1",
+				"name": "copyPSVtoSQL",
 				"type": "DatabricksNotebook",
 				"dependsOn": [],
 				"policy": {
@@ -14,6 +14,9 @@
 					"secureInput": false
 				},
 				"userProperties": [],
+				"typeProperties": {
+					"notebookPath": "/Users/vishal.abnave00002@gmail.com/CopyPSVtoSQL"
+				},
 				"linkedServiceName": {
 					"referenceName": "AzureDatabricks",
 					"type": "LinkedServiceReference"
