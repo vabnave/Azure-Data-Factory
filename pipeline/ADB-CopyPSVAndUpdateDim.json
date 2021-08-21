@@ -23,7 +23,7 @@
 				}
 			},
 			{
-				"name": "UpdateCustomerDim",
+				"name": "UpdateCustomerDimension",
 				"type": "DatabricksNotebook",
 				"dependsOn": [
 					{
@@ -42,7 +42,7 @@
 				},
 				"userProperties": [],
 				"typeProperties": {
-					"notebookPath": "/Users/vishal.abnave00002@gmail.com/UpdateCustomerDim"
+					"notebookPath": "/Users/vishal.abnave00002@gmail.com/UpdateCustomerDimension"
 				},
 				"linkedServiceName": {
 					"referenceName": "AzureDatabricks",
